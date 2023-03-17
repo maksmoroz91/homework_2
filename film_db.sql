@@ -1,3 +1,5 @@
+CREATE DATABASE film_db;
+
 CREATE TABLE genre(
     genre_id SERIAL PRIMARY KEY,
     title VARCHAR(64) NOT NULL
