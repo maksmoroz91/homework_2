@@ -9,9 +9,4 @@ app.use(express.json());
 app.use('/api', filmRouter);
 app.use('/api', genreRouter);
 
-app.listen(PORT, () => console.log(`Сервер запущен на порту ${PORT}`));
-
-
-app.get('/', (req,res) => {
-   res.send('WORK!!!!')
-});
+app.listen(PORT, () => console.log(`Сервер запущен на http://localhost:${PORT}`));
